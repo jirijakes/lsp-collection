@@ -1,0 +1,12 @@
+[submodule "rust/beancount-language-server"]
+	path = rust/beancount-language-server
+	url = https://github.com/polarmutex/beancount-language-server
+[submodule "rust/taplo"]
+	path = rust/taplo
+	url = https://github.com/tamasfe/taplo
+[submodule "rust/zeek-language-server"]
+	path = rust/zeek-language-server
+	url = https://github.com/bbannier/zeek-language-server
+[submodule "idris/idris2-lsp"]
+	path = idris/idris2-lsp
+	url = https://github.com/idris-community/idris2-lsp
