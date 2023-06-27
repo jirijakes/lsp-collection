@@ -10,3 +10,33 @@
 [submodule "idris/idris2-lsp"]
 	path = idris/idris2-lsp
 	url = https://github.com/idris-community/idris2-lsp
+[submodule "rust/tree-sitter-beancount"]
+	path = rust/tree-sitter-beancount
+	url = https://github.com/polarmutex/tree-sitter-beancount
+[submodule "typescript/yaml-language-server"]
+	path = typescript/yaml-language-server
+	url = https://github.com/redhat-developer/yaml-language-server
+[submodule "java/lemminx"]
+	path = java/lemminx
+	url = https://github.com/eclipse/lemminx
+[submodule "go/sqls"]
+	path = go/sqls
+	url = https://github.com/lighttiger2505/sqls
+[submodule "rust/rust-analyzer"]
+	path = rust/rust-analyzer
+	url = https://github.com/rust-lang/rust-analyzer/
+[submodule "rust/texlab"]
+	path = rust/texlab
+	url = https://github.com/latex-lsp/texlab
+[submodule "typescript/vscode"]
+	path = typescript/vscode
+	url = https://github.com/microsoft/vscode/
+[submodule "typescript/graphiql"]
+	path = typescript/graphiql
+	url = https://github.com/graphql/graphiql
+[submodule "python/cmake-language-server"]
+	path = python/cmake-language-server
+	url = https://github.com/regen100/cmake-language-server
+[submodule "typescript/bash-language-server"]
+	path = typescript/bash-language-server
+	url = https://github.com/mads-hartmann/bash-language-server

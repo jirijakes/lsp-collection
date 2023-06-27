@@ -1,0 +1,31 @@
+* Collection of LSP implementations
+
+There are many Language Server Protocol implementations written in all kinds of languages.
+They are good resources when studying the protocol itself. This repository puts them together
+so one can only run
+
+#+BEGIN_SRC sh
+git clone --recurse-submodules https://github.com/jirijakes/lsp-collection
+#+END_SRC
+
+and all of them are available for exploration.
+
+** Overview
+
+   | For language | Written in | Uses tree-sitter | Repository             |
+   |--------------+------------+------------------+------------------------|
+   | Bash         | TypeScript | ✓                | [[https://github.com/mads-hartmann/bash-language-server][LSP]], [[https://github.com/tree-sitter/tree-sitter-bash][TS]]                |
+   | Beancount    | Rust       | ✓                | [[https://github.com/polarmutex/beancount-language-server][LSP]], [[https://github.com/polarmutex/tree-sitter-beancount][TS]]                |
+   | CMake        | Python     |                  | [[https://github.com/regen100/cmake-language-server][LSP]]                    |
+   | GraphQL      | TypeScript |                  | [[https://github.com/graphql/graphiql/tree/main/packages/graphql-language-service-server][LSP]] (part of GraphiQL) |
+   | Idris2       | Idris2     |                  | [[https://github.com/idris-community/idris2-lsp][LSP]]                    |
+   | JSON         | TypeScript |                  | [[https://github.com/microsoft/vscode/tree/main/extensions/json-language-features/server][LSP]] (part of vscode)   |
+   | LaTeX        | Rust       |                  | [[https://github.com/latex-lsp/texlab][LSP]]                    |
+   | Rust         | Rust       |                  | [[https://github.com/rust-lang/rust-analyzer/][LSP]]                    |
+   | SQL          | Go         |                  | [[https://github.com/lighttiger2505/sqls][LSP]] (archived)         |
+   | TOML         | Rust       |                  | [[https://github.com/tamasfe/taplo][LSP]]                    |
+   | XML          | Java       |                  | [[https://github.com/eclipse/lemminx][LSP]]                    |
+   | YAML         | TypeScript |                  | [[https://github.com/redhat-developer/yaml-language-server][LSP]]                    |
+   | Zeek         | Rust       | ✓                | [[https://github.com/bbannier/zeek-language-server][LSP]], [[https://github.com/bbannier/tree-sitter-zeek][TS]]                |
+
+   
